@@ -6,13 +6,15 @@ Dive into the neon glow of the 80's with the Vibrant 80's Klipper Theme! This th
 
 Here's a sneak peek of the electric aesthetic you can expect from this theme:
 
-![Vibrant 80's Klipper Theme Preview 1](<Preview Image URL 1>)
+![Vibrant 80's Klipper Theme Preview 1](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Kobra_Theme_00.png?raw=true)
 
-![Vibrant 80's Klipper Theme Preview 2](<Preview Image URL 2>)
+![Vibrant 80's Klipper Theme Preview 2](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Kobra_Theme_01.png?raw=true)
 
-![Vibrant 80's Klipper Theme Preview 3](<Preview Image URL 3>)
+![Vibrant 80's Klipper Theme Preview 3](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Kobra_Theme_02.png?raw=true)
 
-![Vibrant 80's Klipper Theme Preview 4](<Preview Image URL 4>)
+![Vibrant 80's Klipper Theme Preview 4](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Kobra_Theme_03.png?raw=true)
+
+![Vibrant 80's Klipper Theme Preview 4](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Kobra_Theme_04.png?raw=true)
 
 ## Features
 
@@ -54,3 +56,4 @@ A heartfelt thanks to the vibrant Klipper community and the contributors who ins
 For queries, suggestions, or to share your experience with the theme, feel free to open an issue on this repository or reach out directly. Your input enriches our collective experience.
 
 Elevate your Klipper interface with the Vibrant 80's theme and enjoy printing in style!
+
