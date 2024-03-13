@@ -6,15 +6,15 @@ Dive into the neon glow of the 80's with the Vibrant 80's Klipper Theme! This th
 
 Here's a sneak peek of the electric aesthetic you can expect from this theme:
 
-![Vibrant 80's Klipper Theme Preview 1](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Kobra_Theme_00.png?raw=true)
+![Vibrant 80's Klipper Theme Preview 1](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Vibrant_80's_Theme_00.png))
 
-![Vibrant 80's Klipper Theme Preview 2](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Kobra_Theme_01.png?raw=true)
+![Vibrant 80's Klipper Theme Preview 2](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Vibrant_80's_Theme_01.png))
 
-![Vibrant 80's Klipper Theme Preview 3](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Kobra_Theme_02.png?raw=true)
+![Vibrant 80's Klipper Theme Preview 3](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Vibrant_80's_Theme_02.png))
 
-![Vibrant 80's Klipper Theme Preview 4](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Kobra_Theme_03.png?raw=true)
+![Vibrant 80's Klipper Theme Preview 4](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Vibrant_80's_Theme_03.png))
 
-![Vibrant 80's Klipper Theme Preview 4](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Kobra_Theme_04.png?raw=true)
+![Vibrant 80's Klipper Theme Preview 5](https://github.com/OrloDavid/Vibrant_80s_Klipper/blob/main/.theme/Preview/Klipper_Vibrant_80's_Theme_04.png))
 
 ## Features
 
