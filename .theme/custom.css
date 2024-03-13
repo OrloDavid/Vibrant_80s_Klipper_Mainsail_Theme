@@ -21,185 +21,136 @@
 
 
 :root {
-    --Primary:        #000000;    /*Voron:Black*/
-    --Secondary:      #fb00ff;    /*Voron:Red*/
-    --Green:          #50fafa;    /*Voron:Green*/
-    --Red:            #d3167b;    /*Voron:Red*/
-    --Warnings:       #cec3d0;    /*Voron:Orange*/
-    --Text:           #f8f8f2;    /*Voron:Foreground*/
-    --DarkerText:     #ffffff;    /*Voron: DarkerText/
-    --Background:       #44475a;    /*Voron:CurrentLine*/
-    --DarkBackground: #373737;    /*Voron:Background*/
-    --Toolbars:       #44475a;    /*Voron:CurrentLine*/
-    --Sheets:         #282a36;    /*Voron:Background*/
+    --Primary:      #fb00ff;    /*Pink*/
+    --Secondary:        #00cba6;    /*Aqua Blue-Green*/
+    --White:     #ffffff;    /*White*/
+    --Black:        #000000;    /*Black*/
+    --Red:            #d3167b;    /*Red*/
+    --Nearblack:        #0a0a0a;    /*Near Black*/
+    --DrkGrey:         #121212;   /*Dark Grey*/
+    --MedGrey:         #2a2a2a;    /*Med Grey*/
+    --Grey:              #343434;    /*Grey*/
+    --LtGrey:              #424242;    /*Lt Grey*/
+    --UltGrey:              #626262;    /*Ultra Lt Grey*/
+    --Warnings:       #fcb0dc;    /*Lt Pink*/
+    --Text:           #f8f8f2;    /*Off White*/
+    --DarkerText:     #d7d7d7;    /*White Lt Grey*/
+    --Green:     #00ff22;    /*White Lt Grey*/
 }
 
-/* Change Colors of toolbar & warning */
 
-#nav-header .v-toolbar__title {
+html {
+    /* overflow-y: hidden !important;  /* Hide vertical scrollbar */
+    /* overflow-x: hidden !important;  /* Hide horizontal scrollbar */
+   scrollbar-color: var(--Black) var( --Black);  /* Theme Side Scrollbar, Set HTML & Body to catch all scrollbars */
+   scrollbar-width: thin !important; /* Creates a thinner Scrollbar, good for touchscreens and using a scroll wheel mouse which don't need it */
+}
+
+body {
+    background-color: var(--Black);  /* Catch All */
+   scrollbar-color: var(--Black) var( --Black);  /* Theme Side Scrollbar, Set HTML & Body to catch all scrollbars */
+   scrollbar-width: thin !important; /* Creates a thinner Scrollbar, good for touchscreens and using a scroll wheel mouse which don't need it */
+}
+
+header {
+    background-color: var(--Black);  /* Catch All */
+}
+
+.nav-header .v-toolbar__title {
     font-size: 24px;
     vertical-align: middle;
-    color: white;
+    color: var(--Text);
     font-family: monospace;
 }
 
+.v-sheet {
+   background-color: var(--Black);   /* Catch All */
+    border-color: var(--Black);   /* Catch All */
+}
+
+.v-btn--block.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default{
+    color: var(--White) !important; /* Text on Buttons */
+    background-color: var(--Black) !important;  /* Buttons - Enabled - Machine Tab - Log Files */
+}
+
+.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.grey.darken-3{
+    color: var(--White) !important; /* Text on Buttons */
+    background-color: var(--Black) !important;  /* Buttons - Enabled - Machine Tab - Config Files */
+}
+
+.theme--dark.v-btn.v-btn--has-bg{
+     color: var(--White) !important; /* Text on Buttons - Enabled - All Including Macro Buttons*/
+    /background-color: var(--Black) !important;  /* Buttons - Enabled - All Including Macro Buttons*/
+}
+
+.theme--dark.v-btn.v-btn--disabled.v-btn--has-bg  {
+      color: var(--Black) !important; /* Text on Buttons Disabled  */
+   background-color: var(--Black);  /* Background on Buttons Disabled */
+   border-color: var(--Black) !important;  /* Buttons - Disabled - All Including Macro Buttons*/
+}
+
+
+.small-list-item.active-nav-item.v-list-item--active.v-list-item.v-list-item--link.theme--dark{
+    border-color: var(--Primary) !important;  /* Highlight on Left Menu Items*/
+}
+
+.nav-logo.ml-4.mr-1.d-none.d-sm-flex{
+  color: var(--Primary) !important;  /* Small Toolbar Logo  */
+    border-color: var(--Primary) !important;  /* Small Toolbar Logo  */
+}
+
+.v-application {
+    color: var(--Primary) !important;   /* Catch All */
+}
+
+.v-toolbar__title{
+  color: var(--Text) !important; /*Text on Toolbars*/
+}
+
+.v-toolbar__content{
+  color: var(--Secondary) !important; /*Text on Toolbars*/
+  background-color: var(--Black) !important; /* Toolbar Background */
+}
+
+.v-card__text{
+  color: var(--Secondary) !important; /*Dynamic Text*/
+   background-color: var(--DrkGrey) !important; /*Inner Content Main Content*/
+    border-color: var(--Black) !important; 
+}
+
+.v-data-table{
+  color: var(--Text) !important; /*File Browser Config*/
+   background-color: var(--DrkGrey) !important; /*Inner Content Main Content*/
+    border-color: var(--Black) !important; 
+}
+
+.row .container {
+  background-color: var(--DrkGrey) !important; /*Inner Content Main Content*/
+    border-color: var(--Black) !important; 
+}
+
+.row .consoleTableRow {
+  background-color: var(--DrkGrey) !important; /*Inner Content Main Content*/
+  border-color: var(--Black) !important; 
+}
+
+.v-item-group .theme--dark {
+  color: var(--Text) !important; /*Text and Overlay on Left Menu*/
+  border-color: var(--LtGrey) !important; /*Item Selection / Outline on Left menu and Main Content*/
+}
+
+
 .v-application .warning {
-    background-color: #7c7979 !important;
-    border-color: #353535 !important;
+    background-color: var(--Nearblack) !important; /* App Warning Dialogs ??? */
+    border-color: var(--Red) !important; /* App Warning Dialogs ??? */
 }
 
 .v-application .primary {
-    background-color: black !important;
-}
-
-
-/* Change Color of text */
-.v-btn__content .v-toolbar__title {
-    color: var(--Text) !important;
-}
-.text--darken-2 {
-    color: var(--Text) !important;
-}
-.subheading {
-    color: var(--Text) !important;
-}
-.theme--dark.v-icon, .v-btn__content, .v-text-field__suffix {
-    color: var(--Text) !important;
-}
-.theme--dark.v-input, .theme--dark.v-input input, .theme--dark.v-input textarea {
-    color: var(--Text) !important;
-}
-.v-application .blue--text {
-    color: var(--Text) !important;
-}
-.text-body-2 {
-    color: var(--Text) !important;
-}
-
-/* Change color of primary */ 
-
-.v-application .primary--text {
-    color: white!important;
-    caret-color: white !important;
-}
-.v-application .blue--text {
-    color: white!important;
-    caret-color: white !important;
-}
-
-/* application changes */
-
-.v-application .info {
-    background-color: black!important;
-    border-color: black!important;
-}
-.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat)>.v-input__control>.v-input__slot:focus-within {
-    border: thin solid var(--Primary) !important;
-}
-.v-text-field.v-text-field--solo .v-input__control input {
-    caret-color: var(--Primary);
-}
-.theme--dark.v-color-picker .v-color-picker__input input {
-    border: thin solid var(--Primary);
-    color: var(--Text);
-}
-
-/*Change color of print circle & pause/cancel/resume button*/
-
-.v-application .orange {
-    background-color: #ff2ff1 !important;
-    border color: #ff5252 !important;
+  color: var(--Primary) !important; /* Catch All */
+    background-color: var(--Black) !important;    /* Catch All */
 }
 
 .v-progress-circular__overlay {
-    stroke: #b300ff !important;
+    stroke: var(--Primary) !important; /* Catch All */
 }
 
-/* Change Background and Toolbars */
-body {
-    background-color: var(--Background);
-}
-.v-sheet {
-    border-color: var(--Background);
-}
-
-/*
-    CHANGE content of icons 
-    Material Desgin Icons can be found on https://pictogrammers.github.io/@mdi/font/5.2.45/
-*/
-
-/* "Cog"/Gearwheel to Wrench */
-.mdi-cog:before {
-    content: "\F05B7";
-}
-
-/* Heatbed to Campfire */
-.mdi-radiator-disabled:before {
-    content: "\F0EDD";
-}
-
-/* Heatbed to Campfire */
-.mdi-radiator:before {
-    content: "\F0EDD";
-}
-
-/* Thermometer to Temp Chart */
-.mdi-thermometer-lines:before {
-    content: "\F0FA7";
-}
-
-/* Controls to Camera Control Slider */
-.mdi-gamepad:before {
-    content: "\F0B69";
-}
-
-/* Code-Tags to Keyboard */
-.mdi-code-tags:before {
-    content: "\F0313";
-}
-
-/* Dipswitch to Tune */
-.mdi-dip-switch:before {
-    content: "\F062E";
-}
-
-/* Home to Home Group */
-.mdi-home:before {
-    content: "\F0DD4";
-}
-
-/* Arrow-collapse vertical to single bar collapse */
-.mdi-arrow-collapse-vertical:before {
-    content: "\F0622"
-}
-
-
-/* console to boxed console */
-.mdi-console-line:before {
-    content: "\F018D"
-}
-
-/* "Cog"/Gearwheel to Wrench */
-.mdi-wrench:before {
-    content: "\F0493";
-}
-
-/* Dashboard Monitor to Dashboard window */
-.mdi-monitor-dashboard:before {
-    content: "\F0A1D";
-}
-
-/* History to Profile History */
-.mdi-history:before {
-    content: "\F0B56";
-}
-
-/* Printer Dashboard to 3d Printer */
-.mdi-view-dashboard-outline:before {
-    content: "\F042B";
-}
-
-/* Question-mark to Information/About */
-.mdi-help-circle-outline:before {
-    content: "\F02FD";
-}
