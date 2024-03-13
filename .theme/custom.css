@@ -1,0 +1,205 @@
+/*
+    Vibrant 80's Universal Klipper Theme
+    -------------------------------------
+
+    Dive into the neon-infused, dynamic world of the 80's with this universally compatible Klipper theme. Designed to bring a splash of vibrant pink and medium blue to a dark, sleek background, this theme enhances the aesthetic and usability of your Klipper interface.
+
+    Customization:
+    - Each section of this CSS is carefully commented to assist you in understanding and customizing the theme. Feel free to tweak colors, fonts, and layouts to match your personal style.
+
+    Tools Used:
+    - Graphics: Created with Corel Paint Shop Pro for high-quality, themed visuals.
+    - SVG Edits: Made with Inkscape for precision in scalable vector graphics.
+
+    Accessibility:
+    - Tested for clarity and readability on a 14" display at 2880x1800 resolution, ensuring a user-friendly experience even for those with vision impairments.
+
+    Your creativity can bring new life to this theme. Dive in, and make it your own!
+
+    Author: Inspired by the vibrant era of the 80's, crafted with love for the Klipper community.
+*/
+
+
+:root {
+    --Primary:        #000000;    /*Voron:Black*/
+    --Secondary:      #fb00ff;    /*Voron:Red*/
+    --Green:          #50fafa;    /*Voron:Green*/
+    --Red:            #d3167b;    /*Voron:Red*/
+    --Warnings:       #cec3d0;    /*Voron:Orange*/
+    --Text:           #f8f8f2;    /*Voron:Foreground*/
+    --DarkerText:     #ffffff;    /*Voron: DarkerText/
+    --Background:       #44475a;    /*Voron:CurrentLine*/
+    --DarkBackground: #373737;    /*Voron:Background*/
+    --Toolbars:       #44475a;    /*Voron:CurrentLine*/
+    --Sheets:         #282a36;    /*Voron:Background*/
+}
+
+/* Change Colors of toolbar & warning */
+
+#nav-header .v-toolbar__title {
+    font-size: 24px;
+    vertical-align: middle;
+    color: white;
+    font-family: monospace;
+}
+
+.v-application .warning {
+    background-color: #7c7979 !important;
+    border-color: #353535 !important;
+}
+
+.v-application .primary {
+    background-color: black !important;
+}
+
+
+/* Change Color of text */
+.v-btn__content .v-toolbar__title {
+    color: var(--Text) !important;
+}
+.text--darken-2 {
+    color: var(--Text) !important;
+}
+.subheading {
+    color: var(--Text) !important;
+}
+.theme--dark.v-icon, .v-btn__content, .v-text-field__suffix {
+    color: var(--Text) !important;
+}
+.theme--dark.v-input, .theme--dark.v-input input, .theme--dark.v-input textarea {
+    color: var(--Text) !important;
+}
+.v-application .blue--text {
+    color: var(--Text) !important;
+}
+.text-body-2 {
+    color: var(--Text) !important;
+}
+
+/* Change color of primary */ 
+
+.v-application .primary--text {
+    color: white!important;
+    caret-color: white !important;
+}
+.v-application .blue--text {
+    color: white!important;
+    caret-color: white !important;
+}
+
+/* application changes */
+
+.v-application .info {
+    background-color: black!important;
+    border-color: black!important;
+}
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat)>.v-input__control>.v-input__slot:focus-within {
+    border: thin solid var(--Primary) !important;
+}
+.v-text-field.v-text-field--solo .v-input__control input {
+    caret-color: var(--Primary);
+}
+.theme--dark.v-color-picker .v-color-picker__input input {
+    border: thin solid var(--Primary);
+    color: var(--Text);
+}
+
+/*Change color of print circle & pause/cancel/resume button*/
+
+.v-application .orange {
+    background-color: #ff2ff1 !important;
+    border color: #ff5252 !important;
+}
+
+.v-progress-circular__overlay {
+    stroke: #b300ff !important;
+}
+
+/* Change Background and Toolbars */
+body {
+    background-color: var(--Background);
+}
+.v-sheet {
+    border-color: var(--Background);
+}
+
+/*
+    CHANGE content of icons 
+    Material Desgin Icons can be found on https://pictogrammers.github.io/@mdi/font/5.2.45/
+*/
+
+/* "Cog"/Gearwheel to Wrench */
+.mdi-cog:before {
+    content: "\F05B7";
+}
+
+/* Heatbed to Campfire */
+.mdi-radiator-disabled:before {
+    content: "\F0EDD";
+}
+
+/* Heatbed to Campfire */
+.mdi-radiator:before {
+    content: "\F0EDD";
+}
+
+/* Thermometer to Temp Chart */
+.mdi-thermometer-lines:before {
+    content: "\F0FA7";
+}
+
+/* Controls to Camera Control Slider */
+.mdi-gamepad:before {
+    content: "\F0B69";
+}
+
+/* Code-Tags to Keyboard */
+.mdi-code-tags:before {
+    content: "\F0313";
+}
+
+/* Dipswitch to Tune */
+.mdi-dip-switch:before {
+    content: "\F062E";
+}
+
+/* Home to Home Group */
+.mdi-home:before {
+    content: "\F0DD4";
+}
+
+/* Arrow-collapse vertical to single bar collapse */
+.mdi-arrow-collapse-vertical:before {
+    content: "\F0622"
+}
+
+
+/* console to boxed console */
+.mdi-console-line:before {
+    content: "\F018D"
+}
+
+/* "Cog"/Gearwheel to Wrench */
+.mdi-wrench:before {
+    content: "\F0493";
+}
+
+/* Dashboard Monitor to Dashboard window */
+.mdi-monitor-dashboard:before {
+    content: "\F0A1D";
+}
+
+/* History to Profile History */
+.mdi-history:before {
+    content: "\F0B56";
+}
+
+/* Printer Dashboard to 3d Printer */
+.mdi-view-dashboard-outline:before {
+    content: "\F042B";
+}
+
+/* Question-mark to Information/About */
+.mdi-help-circle-outline:before {
+    content: "\F02FD";
+}
